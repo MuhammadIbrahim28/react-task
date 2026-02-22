@@ -1,4 +1,5 @@
-import Button from "./Components/Button";
+
+
 import Welcome from "./Components/Welcome"
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <>
     <Welcome name ={name} age = {age} />
     Hellow App
-    <Button/>
+    
     </>
   )
 }
