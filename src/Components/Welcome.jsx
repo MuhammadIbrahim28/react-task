@@ -1,9 +1,11 @@
-const Welcome = () => {
-    let name = "Ibrahim"
+const Welcome = ({name,age}) => {
+   // let name = "Ibrahim"
   return (
-    <div>
-      <>Hellow {name}</>
-    </div>
+    
+      <>
+      <h1>{`My name is ${name} and my age ${age}`}</h1>
+      </>
+    
   )
 }
 
