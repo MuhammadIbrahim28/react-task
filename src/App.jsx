@@ -1,5 +1,6 @@
 
 
+import Counter from "./Components/Counter";
 import Welcome from "./Components/Welcome"
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
 
   return (
     <>
+    <Counter/>
     <Welcome name ={name} age = {age} />
     Hellow App
     
